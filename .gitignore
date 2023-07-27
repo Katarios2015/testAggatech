@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.vscode
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+npm-debug.*
+source/css/*.css
+Thumbs.db
+
+*.mp4
+source/video/
+source/video/tehno.mp4
+source/video/tehnoSlow.mp4

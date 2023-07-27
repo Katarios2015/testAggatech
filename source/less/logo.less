@@ -1,0 +1,98 @@
+.logo {
+  /*display: flex;
+  flex-direction: column;*/
+  position: relative;
+  margin: 0 auto;
+  //padding-top: 56px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  /*background-image: url("../img/text-sedona-index.svg"), url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@1x.jpg");
+  background-size: 280px, 327px, cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position-y: 146px, 420px, 40px;
+  background-clip: content-box;*/
+}
+
+p.logo__intro-text {
+  .text-align-center;
+}
+
+.logo__link {
+  display: inline-block;
+  //position: absolute;
+  top: 0;
+  //left: 110px;
+}
+
+.main-banner__video {
+  pointer-events: none;
+ // height: 100%;
+  width: 100%;
+  //position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  z-index: 4;
+}
+
+@media (min-width: @tablet-width) {
+  .logo {
+    position: static;
+    min-width: 768px;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    //background-image: url("../img/text-sedona-index.svg"), url("../img/bg-intro-triangle-tablet.svg"), url("../img/bg-back-tablet@1x.jpg");
+    //background-size: 460px, 768px, cover;
+    //background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    //background-position-y: 78px, 463px, 0;
+  }
+
+  /*.logo__link-block {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+  }*/
+
+  .logo__link h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(250, 250, 250, 0.3);
+    line-height: 1;
+  //position: absolute;
+  //left: 50%;
+  //transform: translate(-50%);
+  }
+
+  .main-banner__video {
+    width: 100%;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .logo {
+    min-width: 1200px;
+    //height: 520px;
+    overflow: hidden;
+    //background-image: url("../img/text-sedona-index.svg"), url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-desktop@1x.jpg");
+    //background-size: 462px, 1200px, cover;
+    //background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+   // background-position-y: 78px, 463px, 0;
+  }
+
+  .logo__image{
+    width: 188px;
+    height: 96px;
+  }
+}
