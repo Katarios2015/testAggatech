@@ -1,0 +1,31 @@
+.project__list-column {
+  display: none;
+}
+
+@media (min-width: @tablet-width) {
+
+}
+
+@media (min-width: @desktop-width) {
+  .project__block {
+    display: flex;
+  }
+
+  .project__list-column {
+    display: block;
+  }
+
+  .project__list {
+    display: none;
+  }
+
+  .project__list:nth-child(2) {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .project__img {
+    height: 100%;
+  }
+
+}
