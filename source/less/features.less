@@ -135,9 +135,9 @@
 @media (min-width: @tablet-width) {
 
   .features__wrapper {
-    padding: 0 60px;
+    padding: 0 30px;
     width: 768px;
-    //margin: 0 auto;
+    margin: 0 auto;
   }
 
   .features {
@@ -233,6 +233,7 @@
   .features__wrapper {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 60px;
   }
 
   .features {
@@ -251,9 +252,12 @@
   .features__list {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     .list-style-none;
     .indents-none;
+  }
+
+  .features__list-row {
+    display: flex;
   }
 
 
@@ -300,7 +304,6 @@
 .features__description--white {
     margin: 8px 65px 0 65px;
   }
-
 
   .features__item--gray {
     display: flex;
