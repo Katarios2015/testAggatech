@@ -305,8 +305,31 @@
                 </button>
               </div>
               <div class="feedback__form-block">
-                <form class="feedback__form">
-                  
+                <div class="feedback__form-header">
+                  <h5>Заполните форму, чтобы связаться с нами</h5>
+                  <button class="feedback__toggle" type="button"  aria-label="Close">
+                    <span class="hidden">Закрыть форму</span>
+                  </button>
+                </div>
+                <form class="feedback__form form" action="#" method="get">
+                  <div class="form__input-gruop">
+                    <input class="form__input" type="text" name="userName" id="user-name" required placeholder="*Имя">
+
+                    <input class="form__input" type="text" name="lastName" id="last-name" placeholder="Фамилия">
+
+                    <input class="form__input" type="text" name="phoneNumber" id="phone" placeholder="Телефон">
+                  </div>
+
+                  <div class="form__input-gruop">
+                    <input class="form__input" type="text" name="company" id="crew" required placeholder="*Компания">
+
+                    <input class="form__input" type="text" name="userPosition" id="position" placeholder="Должность">
+
+                    <input class="form__input" type="text" name="userMail" id="mail" required placeholder="*E-mail">
+                  </div>
+
+                  <textarea class="form__textarea" cols="40" rows="10" maxlength="1000">Чем мы можем вам помочь?</textarea>
+                  <input class="form__input form__input--submit" type="submit" value="Отправить">
                 </form>
               </div>
 
