@@ -65,6 +65,7 @@
   padding: 15px;
   border-radius: 22px;
   border: 1px gray;
+  color: #68676c;
 }
 
 
@@ -74,9 +75,16 @@
   text-align: center;
 }
 
+.feedback__form-title {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+
+
 .form__input--submit {
   margin: 0 auto;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border: none;
   text-transform: uppercase;
   border-radius: 20px;
@@ -84,8 +92,25 @@
 
 .feedback__toggle {
   position: absolute;
+  display: block;
+  top: -20px;
+  right: -40px;
+  width: 30px;
+  height: 30px;
+  background-color: gainsboro;
+  cursor: pointer;
+  border: none;
+}
+
+.feedback__toggle::before {
+  content: "";
+  position: absolute;
   top: 0;
   right: 0;
+  width: 22px;
+  height: 22px;
+  background-color: gainsboro;
+  background-image: url("../img/icon-cross.svg");
 }
 
 .feedback__button {
