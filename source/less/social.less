@@ -1,6 +1,6 @@
 .social {
   display: flex;
-  margin-bottom: 38px;
+  //margin-bottom: 38px;
 }
 
 .social__list {
@@ -24,7 +24,28 @@
   .bg-color-blue;
 }
 
-/*@media (min-width: @tablet-width) {
+@media (min-width: @tablet-width) {
 
+  .social {
+    order: -1;
+  }
 
-}*/
+  .social__list {
+    //width: 151px;
+    margin: 0 ;
+    padding: 0;
+    justify-content: flex-start;
+    .text-align-center;
+    .list-style-none;
+  }
+
+  .social__link {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 40px;
+    height: 20px;
+    .bg-color-blue;
+  }
+
+}
