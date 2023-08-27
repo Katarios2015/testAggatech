@@ -7,7 +7,17 @@
 .sub-menu .sub-menu__link {
   padding-bottom: 10px;
   text-transform: none;
-  font-size: 14px;
+  //font-size: 14px;
   font-weight: 300;
   line-height: 14px;
+}
+
+.sub-menu__link br {
+  display: none;
+}
+
+@media (min-width: @tablet-width) {
+  .sub-menu__link br {
+    display: inline-block;
+  }
 }
