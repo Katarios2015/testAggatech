@@ -15,6 +15,10 @@
   .list-style-none;
 }
 
+.social__title {
+  margin-bottom:0;
+}
+
 .social__link {
   display: flex;
   align-items: center;
@@ -46,6 +50,14 @@
     width: 40px;
     height: 20px;
     .bg-color-blue;
+  }
+
+}
+
+@media (min-width: @desktop-width) {
+  .social {
+    flex-direction: column;
+    order: 1;
   }
 
 }
